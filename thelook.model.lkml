@@ -1,4 +1,4 @@
-connection: "thelook"
+connection: "sample_bigquery_connection"
 
 # include all the views
 include: "*.view"

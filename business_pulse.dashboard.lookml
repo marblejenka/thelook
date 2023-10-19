@@ -2,21 +2,21 @@
   title: "Business Pulse"
   layout: newspaper
   preferred_viewer: dashboards-next
-  rows:
-    - elements: [total_orders, average_order_profit, first_purchasers]
-      height: 220
-    - elements: [orders_by_day_and_category, sales_by_date]
-      height: 400
-    - elements: [top_zip_codes, sales_state_map]
-      height: 400
-    - elements: [sales_by_date_and_category, top_15_brands]
-      height: 400
-    - elements: [cohort_title]
-      height: 50
-    - elements: [layer_cake_cohort]
-      height: 400
-    - elements: [customer_cohort]
-      height: 400
+#   rows:
+#     - elements: [total_orders, average_order_profit, first_purchasers]
+#       height: 220
+#     - elements: [orders_by_day_and_category, sales_by_date]
+#       height: 400
+#     - elements: [top_zip_codes, sales_state_map]
+#       height: 400
+#     - elements: [sales_by_date_and_category, top_15_brands]
+#       height: 400
+#     - elements: [cohort_title]
+#       height: 50
+#     - elements: [layer_cake_cohort]
+#       height: 400
+#     - elements: [customer_cohort]
+#       height: 400
 
   filters:
 
