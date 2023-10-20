@@ -1,6 +1,7 @@
 # https://cloud.google.com/looker/docs/derived-tables
 view: customer_order_summary {
   derived_table: {
+    datagroup_trigger: everything
     # note: スキーマがサンプルと違う
     sql:
       SELECT

@@ -6,6 +6,16 @@ include: "*.view"
 # include all the dashboards
 include: "*.dashboard"
 
+
+# data config
+datagroup: everything {
+  # sql_trigger: SELECT max(created_at) FROM ecomm.events ;;
+  interval_trigger : "2400 hours"
+  max_cache_age: "24 hours"
+}
+persist_with: everything
+
+
 explore: inventory_items {
   join: products {
     type: left_outer
