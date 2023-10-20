@@ -1,4 +1,6 @@
 view: orders {
+  sql_table_name: bigquery-public-data.thelook_ecommerce.orders ;;
+
   dimension: id {
     primary_key: yes
     type: number

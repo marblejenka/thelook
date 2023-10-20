@@ -51,3 +51,5 @@ explore: orders {
 explore: products {}
 
 explore: users {}
+
+explore: customer_order_summary {}
