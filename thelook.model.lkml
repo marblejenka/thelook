@@ -1,7 +1,8 @@
 connection: "sample_bigquery_connection"
 
 # include all the views
-include: "*.view"
+include: "/views/*.view"
+include: "/views/derived/*.view"
 
 # include all the dashboards
 include: "*.dashboard"
@@ -65,3 +66,5 @@ explore: products {}
 explore: users {}
 
 explore: customer_order_summary {}
+
+explore: fixed {}
