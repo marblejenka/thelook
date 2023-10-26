@@ -1,4 +1,6 @@
 view: products {
+  sql_table_name: bigquery-public-data.thelook_ecommerce.products ;;
+
   dimension: id {
     primary_key: yes
     type: number

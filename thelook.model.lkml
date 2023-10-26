@@ -21,6 +21,8 @@ explore: inventory_items {
     type: left_outer
     sql_on: ${inventory_items.product_id} = ${products.id} ;;
     relationship: many_to_one
+    view_label: ""
+
   }
 }
 
