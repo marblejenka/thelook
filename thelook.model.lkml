@@ -67,4 +67,14 @@ explore: users {}
 
 explore: customer_order_summary {}
 
-explore: fixed {}
+explore: fixed {
+  label: "固定の表示をするExplore"
+  query: default {
+    dimensions: [state, gender, count]
+    label: "固定の表示をするExploreのクィックスタート"
+  }
+  sql_always_where:
+    {% if state_parameter._in_query %}
+      ${state} = {% parameter state_parameter %}
+    {% endif %} ;;
+}

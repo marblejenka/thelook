@@ -17,9 +17,21 @@ view: fixed {
     hidden: yes
     description: ""
   }
-  measure: count {
+  dimension: count {
     hidden: yes
     description: ""
-    type: number
+  }
+
+  parameter: state_parameter {
+    type: string
+    label: "州のパラメーター"
+    suggest_dimension: state
+  }
+
+  filter: state_filter {
+    label: "州によるフィルタ"
+    type: string
+    suggest_dimension: state
+    sql: {% condition state_filter %} ${state} {% endcondition %} ;;
   }
 }
