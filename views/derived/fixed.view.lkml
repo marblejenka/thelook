@@ -10,15 +10,15 @@ view: fixed {
     }
   }
   dimension: state {
-    hidden: yes
+    # hidden: yes
     description: ""
   }
   dimension: gender {
-    hidden: yes
+    # hidden: yes
     description: ""
   }
   dimension: count {
-    hidden: yes
+    # hidden: yes
     description: ""
   }
 
